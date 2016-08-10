@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <!--android:textAllCaps="false" 属性防止Button的英文文本自动大写显示-->
+
+    <Button
+        android:id="@+id/btn_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="普通RecyclerView（仿ListView）"/>
+
+    <Button
+        android:id="@+id/btn_gridlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="GridLayoutManager样式布局的实现（横向和纵向）"/>
+
+    <Button
+        android:id="@+id/btn_staggeredgridlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="StaggeredGridLayoutManager样式布局的实现"/>
+
+    <Button
+        android:id="@+id/btn_staggeredgridlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="瀑布流式的布局"/>
+</LinearLayout>
