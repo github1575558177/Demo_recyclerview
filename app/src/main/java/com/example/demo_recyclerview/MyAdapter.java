@@ -66,7 +66,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     //指定位置添加一项，相当于插入
     public void addData(int position, String data) {
         mDatas.add(position, data);
-        notifyItemInserted(position);//注意这里写的是notifyItemInserted()，比notifyDataSetChanged() 高效
+        notifyItemInserted(position);//注意这里写的是notifyItemInserted()，而不是notifyDataSetChanged()，只有这样才可以显示动画效果
     }
 
     public void removeData(int position){
